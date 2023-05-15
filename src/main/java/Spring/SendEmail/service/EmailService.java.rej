@@ -1,0 +1,9 @@
+diff a/src/main/java/Spring/SendEmail/service/EmailService.java b/src/main/java/Spring/SendEmail/service/EmailService.java	(rejected hunks)
+@@ -17,5 +17,6 @@
+         message.setSubject(subject);
+         message.setText(text);
+         javaMailSender.send(message);
++//        Test
+     }
+ }
+\ No newline at end of file
