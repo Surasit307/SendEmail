@@ -17,6 +17,6 @@ public class EmailService {
         message.setSubject(subject);
         message.setText(text);
         javaMailSender.send(message);
-//        Test
+//        Test123
     }
 }
